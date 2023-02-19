@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    border: 1px solid purple;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 1300px;
+    float: none;
+}
+
+.header-logo {
+    align-self: flex-start;
+    flex-wrap: nowrap;
+}
+
+.header-links {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid violet;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 1300px;
+    float: none;
+    margin: auto;
+}
+
+.chapter-1 {
+    display: flex;
+    border: 1px solid darkblue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cp1-text {
+    flex-basis: 50%;
+    flex-grow: 0;
+    flex-shrink: 2;
+}
+
+.cp1-pic {
+    flex-basis: 50%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+.chapter-2 {
+    border: 1px solid green;
+}
+
+.chapter-3 {
+    border: 1px solid darkgoldenrod;
+}
+
+.chapter-4 {
+    border: 1px solid red;
+}
+
+.footer {
+    display: flex;
+    align-self: center;
+}
